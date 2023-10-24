@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <title>Formulario</title>
+      <link rel="stylesheet" href="formulario.css">
+  </head>
+  <body>
+    <header>
+        <h2>Formulario del estudiante</h2>
+        <h3>Desarrollo de Aplicaciones Web</h3>
+    </header>
+    <hr>
+    <form action="proceso.php" method="POST">
+    <main>
+      <section>
+        <div class="preguntas">Introduce tu nombre: </div><br>
+        <input type="text" placeholder="Nombre" maxlength="15">
+        <input type="apellidos" placeholder="Apellidos" maxlength="25"><br><br>
+      </section>
+      <section>
+        <div class="preguntas">Selecciona el/los módulos que cursas: </div>
+        <ul class="opciones">
+          <li><input type="checkbox" name="question3" value="true">Desarrollo Web en Entorno Cliente</li>
+          <li><input type="checkbox" name="question3" value="false">Desarrollo Web en Entorno Servidor</li>
+        </ul>
+      </section>
+     <button type="submit">Enviar Formulario</button>
+    </main>
+  </form>
+  </body>
+</html>

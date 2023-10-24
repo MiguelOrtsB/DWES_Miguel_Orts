@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <title>Formulario</title>
+      <link rel="stylesheet" href="formulario.css">
+  </head>
+  <body>
+    <header>
+        <h2>Formulario</h2>
+    </header>
+    <form action="3_dades_Personals.php" method="post">
+    <main>
+      <section>
+        <div class="preguntas">Nombre: </div><br>
+        <input type="text" name="Nombre" maxlength="15">
+        <input type="apellidos" name="Apellidos" maxlength="25">
+      </section><br>
+      <section>
+        <div class="preguntas">Teléfono: </div><br>
+        <input type="number" name="Teléfono" maxlength="9">
+      </section><br>
+      <section>
+        <div class="preguntas">Email: </div><br>
+        <input type="text" name="Email" maxlength="50">
+      </section><br>
+      <section>
+        <div class="preguntas">Edad: </div><br>
+        <input type="number" name="Edad" maxlength="3">
+      </section><br>
+      <button type="submit">Enviar</button>
+    </main>
+  </form>
+  </body>
+</html>
