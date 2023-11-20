@@ -1,5 +1,4 @@
 <?php
-
 class Dvd extends Soporte{
   // Declaración de las propiedades
   public $idiomas;

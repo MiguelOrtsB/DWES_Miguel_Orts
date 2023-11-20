@@ -1,5 +1,4 @@
 <?php
-
 class CintaVideo extends Soporte{
   // Declaración de la propiedad
   private $duracion;
